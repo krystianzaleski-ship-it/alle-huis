@@ -17,3 +17,10 @@ For every current and future chat, branch, PR and workstream involving this repo
 - any exception requires explicit owner authorization plus Cost Gate, exact scope, run/minute ceiling, monetary ceiling and expiry/removal condition.
 
 Canonical global authority: `krystianzaleski-ship-it/alle-huis-crm/.ai/standards/tool-escalation-and-execution-surfaces.md`.
+
+
+## False remote-access blocking prohibition — 2026-10-08
+
+A chat MUST NOT stop at “no SSH / no terminal / Remote Desktop offline”. If an existing VPS action is unavailable, it must evaluate and, when safe and authorized, create a bounded allowlisted INFRA executor action/job and execute it through the signed webhook route. Absence of a preexisting executor action is not itself a blocking boundary.
+
+For shell-related blocking, a valid `BLOCKED_BY_REAL_BOUNDARY` requires evidence-backed alternative-surface checks and explicit confirmation that bounded VPS job creation was checked and is genuinely insufficient or unauthorized. Otherwise the required state is `ACCESS_CHANNEL_DEGRADED / AUTO_CONTINUE_REQUIRED`.
